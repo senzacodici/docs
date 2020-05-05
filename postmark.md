@@ -15,12 +15,16 @@ Regarding your question, I'm sorry to inform you that we don't currently support
 
 Even though this feature is not planned in our current roadmap, I'm going to share your feedback with our product team, so they can be aware of it, and keep it in mind for future improvements in the Postmark platform.
 
-In any case, let me check with the developers if there's any workaround to achieve a similar result with our current solution, until such feature becomes available.
+In any case, let me check with the developers if there's any workaround to achieve a similar result with our current solution, until such feature becomes available. I'll reply back as soon as I have more information about it.
 
 Let me know if you have further questions.
 
 Have a nice day, best regards  
 Damian
+
+> * Please also tell us a little about why you answered this way. What is your thought process behind it?
+
+I tried to be honest about the availability of such feature, avoiding excuses or false expectations. I also wanted to share this feature request with the Product team, since requests from users and customers can be \(sometimes\) a great resource for ideas and future developments. I also wanted to find a solution or provide a workaround to the customer, so I committed to contact the dev team and see if there's any alternative solution available.
 
 ## Exercise 2
 

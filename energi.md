@@ -1,5 +1,5 @@
 ---
-description: Writing assignment - Damian Parrino (dparrino @gmail.com)
+description: Writing assignment - Damian Parrino (dparrino@gmail.com)
 ---
 
 # Energi

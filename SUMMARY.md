@@ -1,5 +1,6 @@
 # Table of contents
 
-* [Automattic](README.md)
+* [Home](README.md)
+* [Automattic](automattic.md)
 * [Energi](energi.md)
 

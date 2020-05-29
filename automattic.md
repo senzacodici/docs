@@ -34,9 +34,9 @@ After the call, I'll contact internally the Automattic sales team representative
 
 _The process:_ How to build an open-source PlayStation 3 development environment on macOS
 
-_The audience:_ hobbyists using macOS, with some development experience
+_The audience:_ Hobbyists with some general development experience. I assume they have some basic knowledge on how to use a console terminal, and how to execute commands and scripts. No previous experience with PlayStation 3 software is required.
 
-This process will enable you to build an open-source PS3 development environment on macOS from the ground up, and show you how to compile your first PS3 sample application. When completed, you'll have a full setup to create, build, and test your own PlayStation 3 games, tools, and applications without requiring any additional proprietary code.
+_The purpose:_ This process will enable you to build an open-source PS3 development environment on macOS from the ground up, and show you how to compile your first PS3 sample application. When completed, you'll have a full setup to create, build, and test your own PlayStation 3 games, tools, and applications without requiring any additional proprietary code.
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ This process will enable you to build an open-source PS3 development environment
 
 Let's begin by setting up these requirements:
 
-**Xcode**
+#### Xcode
 
 1. Download the latest Xcode from the [Apple Mac Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 2. Install Xcode
@@ -66,8 +66,8 @@ Install the [Homebrew package manager](https://brew.sh/), by running the followi
 Once Homebrew is ready, we’ll use it to install the additional required packages to build the PS3 toolchain, by running the following command from a console window:
 
 ```bash
-brew install autoconf automake openssl libelf 
-brew install ncurses zlib gmp wget pkg-config
+brew install autoconf automake openssl libelf \
+ncurses zlib gmp wget pkg-config
 ```
 
 ### Building the PS3 toolchain and libraries

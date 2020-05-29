@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [WordPress](README.md)
 * [Energi](energi.md)
 

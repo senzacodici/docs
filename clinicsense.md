@@ -28,7 +28,7 @@ Yes, you can easily add a predefined clean-up time between appointments, by sett
 
 ![](.gitbook/assets/b87eda93-bf25-4f2c-af5a-22de640d5bc9.png)
 
-Once you save the changes, any new appointment for that service will have the additional time included. Let me know if you have further questions.
+Once you save the changes, any new appointment for that service will have the additional time included. Please let me know if you have further questions.
 
 Best regards,  
 Damian
@@ -39,7 +39,7 @@ Damian
 
 * Hi! I have a client with two files, how can I combine them?
 
-Hello John,
+Hello Joan,
 
 You can easily merge two customer files from the **Clients** menu. Let me show you with an example case, where I merge "Mike Connor" and "Michael Connor":
 
@@ -57,6 +57,13 @@ You can easily merge two customer files from the **Clients** menu. Let me show y
 
 ![](.gitbook/assets/d591b1aa-d67d-46aa-b984-732c1c521e1b.png)
 
+Please note that the merged file will contain the _About_ and _Health History_ information from the client file you selected in Step 3 \(in my example, _Michael Connor_\) and _Appointments_ and _Payments_ from both client files.
+
+Let me know if you have further questions.
+
+Best regards,  
+Damian
+
 
 
 [https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file](https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file)
@@ -67,7 +74,24 @@ You can easily merge two customer files from the **Clients** menu. Let me show y
 
 * I added a new practitioner to my account and I put in the wrong email address for her. Can you fix that on your end or do I fix it somehow?
 
-x
+Hello Peter, thanks for your contact
+
+You can correct the email address for your new practitioner from the **Practitioners** settings, and then just resend the confirmation email so she can set up her account password. Let me guide you with an example:
+
+1. From the dashboard, go to the **Setup** tab
+2. Select the **Practitioners** option
+3. From the drop-down menu, pick the practitioner you want to edit
+4. Click on the **Account** tab
+5. Edit the **Account Email**, with the new address
+6. Click on **Save** to confirm the changes
+7. Finally, click on **Resend Password** to allow the practitioner to set up the password
+
+![](.gitbook/assets/4d615739-0ce1-4d8b-b713-7e98dfd59c5c.png)
+
+Please let me know if you were able to change the email address or if you need further assistance.
+
+Have a nice day, best regards  
+Damian
 
 ## Question \#5
 

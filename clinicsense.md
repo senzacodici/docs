@@ -68,8 +68,6 @@ Damian
 
 [https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file](https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file)
 
-
-
 ## Question \#4
 
 * I added a new practitioner to my account and I put in the wrong email address for her. Can you fix that on your end or do I fix it somehow?
@@ -99,17 +97,29 @@ Damian
 
 x
 
+![](.gitbook/assets/5174f452-3d71-466a-a594-79e2f7250721.png)
+
+![](.gitbook/assets/0ecc3501-5a40-4664-b5f0-c05fa17c2e2e.png)
+
 ## Question \#6
 
 * I work in a clinic where there are about six of us using ClinicSense. In my settings, I put my services to book online, but the problem is that clients could then start cancelling online. How can I deactivate the cancel online portion?
 
 x
 
+![](.gitbook/assets/6.png)
+
 ## Question \#7
 
 * Hello, I am trying to figure out how to block practitioners from seeing the financial reports, but I cannot find out how to do it. Please advise.
 
+xx
+
+![](.gitbook/assets/7.png)
+
 x
+
+![](.gitbook/assets/7-1.png)
 
 ## Question \#8
 
@@ -117,11 +127,15 @@ x
 
 x
 
+![](.gitbook/assets/8.png)
+
 ## Question \#9
 
 * When I go to my scheduling settings, my online scheduling is on, yet none of my services can be booked online. Help!
 
 x
+
+![](.gitbook/assets/9.png)
 
 ## Question \#10
 
@@ -129,5 +143,13 @@ x
 
 x
 
+![](.gitbook/assets/10.png)
 
+![](.gitbook/assets/10-1.png)
+
+![](.gitbook/assets/10-2.png)
+
+x
+
+[https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit](https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit)
 

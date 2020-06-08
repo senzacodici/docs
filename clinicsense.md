@@ -28,12 +28,13 @@ Yes, you can easily add a predefined clean-up time between appointments, by sett
 
 ![](.gitbook/assets/b87eda93-bf25-4f2c-af5a-22de640d5bc9.png)
 
-Once you save the changes, any new appointment for that service will have the additional time included. Please let me know if you have further questions.
+Once you save the changes, any new appointment for that service will have the additional time included.
+
+You can also find more information in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/115009258788-Add-extra-time-between-appointments](https://support.clinicsense.com/hc/en-us/articles/115009258788-Add-extra-time-between-appointments)   
+Please let me know if you have further questions.
 
 Best regards,  
 Damian
-
-[https://support.clinicsense.com/hc/en-us/articles/115009258788-Add-extra-time-between-appointments](https://support.clinicsense.com/hc/en-us/articles/115009258788-Add-extra-time-between-appointments)
 
 ## Question \#3
 
@@ -41,13 +42,13 @@ Damian
 
 Hello Joan,
 
-You can easily merge two customer files from the **Clients** menu. Let me show you with an example case, where I merge "Mike Connor" and "Michael Connor":
+You can easily merge two customer files from the **Clients** menu. Let me show you with a simple use-case, where I merge "_Mike Connor_" and "_Michael Connor_" files:
 
 1. On the dashboard, go to the **Clients** tab
 2. Find the client with the duplicate record
 3. Select the client file with the most complete data \(in my case, _Michael Connor_ will be used as the master file\)
 4. Click on the **Gear button** next to the client's name
-5. From the drop-down menu, select Merge client
+5. From the drop-down menu, select **Merge client**
 
 ![](.gitbook/assets/feaffac1-0e45-4c6f-89d2-e835d04718c0.png)
 
@@ -59,22 +60,19 @@ You can easily merge two customer files from the **Clients** menu. Let me show y
 
 Please note that the merged file will contain the _About_ and _Health History_ information from the client file you selected in Step 3 \(in my example, _Michael Connor_\) and _Appointments_ and _Payments_ from both client files.
 
+You can also find more information regarding this topic in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file](https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file)  
 Let me know if you have further questions.
 
 Best regards,  
 Damian
 
-
-
-[https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file](https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file)
-
 ## Question \#4
 
 * I added a new practitioner to my account and I put in the wrong email address for her. Can you fix that on your end or do I fix it somehow?
 
-Hello Peter, thanks for your contact
+Hello Peter,
 
-You can correct the email address for your new practitioner from the **Practitioners** settings, and then just resend the confirmation email so she can set up her account password. Let me guide you with an example:
+Don't worry, you can correct the email address for your new practitioner from the **Practitioners** settings, and then resend the confirmation email so she can set up her account password. Let me guide you with an example:
 
 1. From the dashboard, go to the **Setup** tab
 2. Select the **Practitioners** option
@@ -86,7 +84,7 @@ You can correct the email address for your new practitioner from the **Practitio
 
 ![](.gitbook/assets/4d615739-0ce1-4d8b-b713-7e98dfd59c5c.png)
 
-Please let me know if you were able to change the email address or if you need further assistance.
+Please let me know if you were able to update the email address or if you need further assistance.
 
 Have a nice day, best regards  
 Damian
@@ -96,6 +94,10 @@ Damian
 * Could you advise if there is a way to set up a receptionist so they do not get emails about appointments? Our clinic director set up her accountant as a receptionist so she could have access to financial/revenue reports but she was getting appointments emails. Thanks in advance.
 
 Hello Michael,
+
+I understand the use-case, as your accountant doesn't need to get the appointment emails. This issue can be solved by changing the notification settings for her account, so she won't receive any appointment notifications.
+
+I kindly ask you to forward these instructions to the clinic accountant, so she can edit her account:
 
 1. Open the drop-down menu, by clicking on your email \(top-right\)
 2. Select **My Notifications**
@@ -107,11 +109,19 @@ Hello Michael,
 
 ![](.gitbook/assets/0ecc3501-5a40-4664-b5f0-c05fa17c2e2e.png)
 
+Once the accountant saves the changes, she shouldn't receive any appointment emails.  
+Please let me know if you have further questions.
+
+Have a nice day, best regards  
+Damian
+
 ## Question \#6
 
 * I work in a clinic where there are about six of us using ClinicSense. In my settings, I put my services to book online, but the problem is that clients could then start cancelling online. How can I deactivate the cancel online portion?
 
 Hello Claire,
+
+I understand the issue, you want to keep the online booking feature available, while disabling the option for online cancellation. This can be achieved by editing the scheduling settings on the clinic setup. Let me show you how to edit the settings with this quick guide:
 
 1. Click on the **Setup** tab
 2. Select the **Scheduling Settings** option
@@ -121,11 +131,20 @@ Hello Claire,
 
 ![](.gitbook/assets/6.png)
 
+After you save the changes, your customers won't be allowed to cancel appointments online.
+
+Please let me know if you have further questions.
+
+Have a nice day, best regards  
+Damian
+
 ## Question \#7
 
 * Hello, I am trying to figure out how to block practitioners from seeing the financial reports, but I cannot find out how to do it. Please advise.
 
 Hello Jane,
+
+I understand your concern about practitioners accessing the financial reports. Let me show you how to edit the practitioner's permissions so they can't see those reports:
 
 1. On the dashboard, click on the **Setup** tab
 2. Select the **Practitioners** option
@@ -139,11 +158,20 @@ Hello Jane,
 
 ![](.gitbook/assets/7-1.png)
 
+Once you save the the changes, the practitioner won't be able to access the financial reports.
+
+Please let me know if you were able to update the report settings or if you need further assistance.
+
+Have a nice day, best regards  
+Damian
+
 ## Question \#8
 
 * Hi, I am no longer able to see new patients because I have too many and not enough time for new ones. Is there a way to not be able to let new people book?
 
 Hello Paul,
+
+I'm glad to hear your business is doing great. Let me explain how to change the scheduling settings so only existing patients can book online, with this quick guide:
 
 1. Click on the **Setup** tab
 2. Select the **Scheduling** **Settings** option
@@ -152,11 +180,20 @@ Hello Paul,
 
 ![](.gitbook/assets/8.png)
 
+Once you save the the changes, new clients won't be able to book online.
+
+Please let me know if you were able to update the scheduling settings or if you need further assistance.
+
+Have a nice day, best regards  
+Damian
+
 ## Question \#9
 
 * When I go to my scheduling settings, my online scheduling is on, yet none of my services can be booked online. Help!
 
 Hello Richard,
+
+I'm sorry to hear you're having issues with the online scheduling. Let's try to do some basic troubleshooting, by checking if your services have the online scheduling feature enabled:
 
 1. On the ClinicSense dashboard, click on the **Setup** tab
 2. Select the **Services** option
@@ -166,11 +203,20 @@ Hello Richard,
 
 ![](.gitbook/assets/9.png)
 
+Could you confirm if the online scheduling setting was set correctly or not, 
+
+Please let me know if you were able to update the scheduling settings or if you need further assistance.
+
+Have a nice day, best regards  
+Damian
+
 ## Question \#10
 
 * I added credit to a client’s account, but now I need to remove it. How do I do that?
 
 Hello Alex,
+
+x
 
 1. Go to the **Clients** tab
 2. Select the desired client
@@ -188,7 +234,9 @@ Hello Alex,
 
 ![](.gitbook/assets/10-2.png)
 
-x
+You can also find more information about this topic in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit](https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit)  
+Please let me know if you have any further questions.
 
-[https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit](https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit)
+Have a nice day, best regards  
+Damian
 

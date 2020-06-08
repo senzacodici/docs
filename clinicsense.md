@@ -95,9 +95,15 @@ Damian
 
 * Could you advise if there is a way to set up a receptionist so they do not get emails about appointments? Our clinic director set up her accountant as a receptionist so she could have access to financial/revenue reports but she was getting appointments emails. Thanks in advance.
 
-x
+Hello Michael,
+
+1. Open the drop-down menu, by clicking on your email \(top-right\)
+2. Select **My Notifications**
 
 ![](.gitbook/assets/5174f452-3d71-466a-a594-79e2f7250721.png)
+
+3. De-select the checkboxes to stop receiving appointment notifications  
+4. Click on **Save** to confirm the changes
 
 ![](.gitbook/assets/0ecc3501-5a40-4664-b5f0-c05fa17c2e2e.png)
 
@@ -105,7 +111,13 @@ x
 
 * I work in a clinic where there are about six of us using ClinicSense. In my settings, I put my services to book online, but the problem is that clients could then start cancelling online. How can I deactivate the cancel online portion?
 
-x
+Hello Claire,
+
+1. Click on the **Setup** tab
+2. Select the **Scheduling Settings** option
+3. Click on the **Scheduling Rules** tab
+4. On the first drop-down box, choose **Never** \(clients can't cancel appointments online\)
+5. Click on **Save** to confirm the changes
 
 ![](.gitbook/assets/6.png)
 
@@ -113,11 +125,17 @@ x
 
 * Hello, I am trying to figure out how to block practitioners from seeing the financial reports, but I cannot find out how to do it. Please advise.
 
-xx
+Hello Jane,
+
+1. On the dashboard, click on the **Setup** tab
+2. Select the **Practitioners** option
+3. Choose the practitioner you want to edit from the drop-down menu
+4. Click on the **Account** tab
+5. Click on the **change** link to modify the user permissions
 
 ![](.gitbook/assets/7.png)
 
-x
+6. On the Permissions screen, change the **Reports** settings as desired
 
 ![](.gitbook/assets/7-1.png)
 
@@ -125,7 +143,12 @@ x
 
 * Hi, I am no longer able to see new patients because I have too many and not enough time for new ones. Is there a way to not be able to let new people book?
 
-x
+Hello Paul,
+
+1. Click on the **Setup** tab
+2. Select the **Scheduling** **Settings** option
+3. On the third drop-down box, choose "**Don't allow new clients to book online**"
+4. Click on **Save** to confirm the changes
 
 ![](.gitbook/assets/8.png)
 
@@ -133,7 +156,13 @@ x
 
 * When I go to my scheduling settings, my online scheduling is on, yet none of my services can be booked online. Help!
 
-x
+Hello Richard,
+
+1. On the ClinicSense dashboard, click on the **Setup** tab
+2. Select the **Services** option
+3. Go to the **Settings** tab
+4. Verify that the Online Scheduling drop-down box is set to "**This service can be booked online**"
+5. Click on **Save** to confirm the changes
 
 ![](.gitbook/assets/9.png)
 
@@ -141,11 +170,21 @@ x
 
 * I added credit to a client’s account, but now I need to remove it. How do I do that?
 
-x
+Hello Alex,
+
+1. Go to the **Clients** tab
+2. Select the desired client
+3. Click on the **Gear icon** next to the client's name.
+4. On the drop-down menu, select **View** **Statement**
 
 ![](.gitbook/assets/10.png)
 
+4. On the Statement screen, click on the credit or payment you want to revert
+
 ![](.gitbook/assets/10-1.png)
+
+5. On the Payments pop-up, click on the small **gear icon** near the Amount  
+6. Select the **Refund payment** option
 
 ![](.gitbook/assets/10-2.png)
 

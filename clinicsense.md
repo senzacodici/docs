@@ -8,7 +8,7 @@ description: Pre-Interview Questions - Damian Parrino (dparrino@gmail.com)
 
 * I’d like to add online scheduling to my website. How do I do this?
 
-x
+Video response available on Loom:
 
 [https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website](https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website)
 
@@ -203,9 +203,8 @@ I'm sorry to hear you're having issues with the online scheduling. Let's try to 
 
 ![](.gitbook/assets/9.png)
 
-Could you confirm if the online scheduling setting was set correctly or not, 
-
-Please let me know if you were able to update the scheduling settings or if you need further assistance.
+Could you confirm if changing the online scheduling option solved the issue, or if you're still unable to book services online?  
+Please let me know the results, so we can continue troubleshooting this issue.
 
 Have a nice day, best regards  
 Damian
@@ -216,7 +215,7 @@ Damian
 
 Hello Alex,
 
-x
+You can refund account credit from the client's statement. Allow me to show you how to do it with this simple guide:
 
 1. Go to the **Clients** tab
 2. Select the desired client
@@ -229,10 +228,12 @@ x
 
 ![](.gitbook/assets/10-1.png)
 
-5. On the Payments pop-up, click on the small **gear icon** near the Amount  
+5. On the Payments pop-up window, click on the small **gear icon** near the payment amount  
 6. Select the **Refund payment** option
 
 ![](.gitbook/assets/10-2.png)
+
+Once you confirm the refund, the credit will be reverted from your client's account.
 
 You can also find more information about this topic in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit](https://support.clinicsense.com/hc/en-us/articles/360014848554-Refund-account-credit)  
 Please let me know if you have any further questions.

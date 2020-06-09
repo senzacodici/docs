@@ -14,7 +14,7 @@ I have recorded a quick video walk-through to show you the required steps to add
 [https://www.loom.com/share/01a38285c4424c4f84fd6beeb5775e0a](https://www.loom.com/share/01a38285c4424c4f84fd6beeb5775e0a)
 
 You can also find more information in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website](https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website)   
-Since it's a technical Please let me know if you need further assistance with this issue.
+Since it's a technical topic, please let me know if you need further assistance applying the generated code to your website.
 
 Best regards,  
 Damian

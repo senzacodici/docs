@@ -8,9 +8,16 @@ description: Pre-Interview Questions - Damian Parrino (dparrino@gmail.com)
 
 * I’d like to add online scheduling to my website. How do I do this?
 
-Video response available on Loom:
+Hello James,
 
-[https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website](https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website)
+I have recorded a quick video walk-through to show you the required steps to add the online scheduling feature to your website. Please check my video response available on Loom:  
+[https://www.loom.com/share/01a38285c4424c4f84fd6beeb5775e0a](https://www.loom.com/share/01a38285c4424c4f84fd6beeb5775e0a)
+
+You can also find more information in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website](https://support.clinicsense.com/hc/en-us/articles/115009255708-Step-9-Add-Online-Scheduling-To-Your-Website)   
+Since it's a technical Please let me know if you need further assistance with this issue.
+
+Best regards,  
+Damian
 
 ## Question \#2
 
@@ -59,6 +66,8 @@ You can easily merge two customer files from the **Clients** menu. Let me show y
 ![](.gitbook/assets/d591b1aa-d67d-46aa-b984-732c1c521e1b.png)
 
 Please note that the merged file will contain the _About_ and _Health History_ information from the client file you selected in Step 3 \(in my example, _Michael Connor_\) and _Appointments_ and _Payments_ from both client files.
+
+In case you prefer a video walk-through, please check this video link: [https://www.loom.com/share/d58a99a88bb447488f6cbab665ca4e16](https://www.loom.com/share/d58a99a88bb447488f6cbab665ca4e16)
 
 You can also find more information regarding this topic in our Help Center: [https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file](https://support.clinicsense.com/hc/en-us/articles/115009265208-Merge-a-duplicate-client-file)  
 Let me know if you have further questions.

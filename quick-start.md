@@ -250,9 +250,22 @@ We should be getting an empty result this time, since we no longer have access t
 
 ## Testing it out with a simple UI
 
-We've built a ToDo app with [React](https://reactjs.org/) that you can use to close these ToDos off. Le t's head over to our sample React app, deployed at [https://relaxed-brahmagupta-f8020f.netlify.app/](https://relaxed-brahmagupta-f8020f.netlify.app/).
+To test our work, we've built the app's frontend with [React](https://reactjs.org/), so you can use it to close the tasks off. 
 
-You can try creating an account with your email, or logging in with `frodo@dgraph.io` / `skywalker@dgraph.io`. Like the first Death Star, Luke wasn't big on security, his password is `password`. Frodo has the same password.
+Let's head over to our sample React app, deployed at [https://relaxed-brahmagupta-f8020f.netlify.app/](https://relaxed-brahmagupta-f8020f.netlify.app/). When running the React app, remember to use the GraphQL Endpoint shown in your Slash GraphQL [Dashboard](https://slash.dgraph.io/_/dashboard).
+
+You can try creating an account with your email, or log in with the following user/passwords:
+
+* `frodo@dgraph.io` / `password`
+* `skywalker@dgraph.io` / `password`
+
+Like the first Death Star, Luke wasn't big on security.
 
 ![](.gitbook/assets/todos.png)
+
+Congratulations! You have completed the Slash GraphQL quick-start guide, and you are ready to use the world’s most advanced, hosted GraphQL backend in your applications.
+
+
+
+
 

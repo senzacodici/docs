@@ -257,9 +257,7 @@ Let's head over to our sample React app, deployed at [https://relaxed-brahmagupt
 You can try creating an account with your email, or log in with the following user/passwords:
 
 * `frodo@dgraph.io` / `password`
-* `skywalker@dgraph.io` / `password`
-
-Like the first Death Star, Luke wasn't big on security.
+* `skywalker@dgraph.io` / `password` (like the first Death Star, Luke wasn't big on security)
 
 ![](.gitbook/assets/todos.png)
 

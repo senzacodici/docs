@@ -15,7 +15,7 @@ In this guide, we will create a database for a small app from the ground up usin
 
 ### About our ToDo App
 
-As our example app for this guide, we'll be building a simple _ToDo List_  that supports adding and completing tasks for multiple users. With the help of this small app, in this article, you'll learn to:
+As our example app for this guide, we'll be building a simple _ToDo List_ that supports adding and completing tasks for multiple users. With the help of this small app, in this article, you'll learn to:
 
 * Create a Slash GraphQL schema
 * Apply GraphQL mutations and populate data
@@ -24,7 +24,7 @@ As our example app for this guide, we'll be building a simple _ToDo List_  that 
 
 ## The Schema
 
-The schema for our simple ToDo app has just two types: `Tasks` and `Users`. The schema itself is pretty simple: it's a standard GraphQL schema, with a few additional directives \(such as `@search`\), which are specific to Slash GraphQL. 
+The schema for our simple ToDo app has just two types: `Tasks` and `Users`. The schema itself is pretty simple: it's a standard GraphQL schema, with a few additional directives \(such as `@search`\), which are specific to Slash GraphQL.
 
 Let's define the Slash GraphQL schema for our app:
 
@@ -250,20 +250,18 @@ We should be getting an empty result this time, since we no longer have access t
 
 ## Testing it out with a simple UI
 
-To test our work, we've built the app's frontend with [React](https://reactjs.org/), so you can use it to close the tasks off. 
+To test our work, we've built the app's frontend with [React](https://reactjs.org/), so you can use it to close the tasks off.
 
 Let's head over to our sample React app, deployed at [https://relaxed-brahmagupta-f8020f.netlify.app/](https://relaxed-brahmagupta-f8020f.netlify.app/). When running the React app, remember to use the GraphQL Endpoint shown in your Slash GraphQL [Dashboard](https://slash.dgraph.io/_/dashboard).
 
 You can try creating an account with your email, or log in with the following user/passwords:
 
 * `frodo@dgraph.io` / `password`
-* `skywalker@dgraph.io` / `password` (like the first Death Star, Luke wasn't big on security)
+* `skywalker@dgraph.io` / `password` \(like the first Death Star, Luke wasn't big on security\)
+
+Once you have logged in, you should see something like:
 
 ![](.gitbook/assets/todos.png)
 
 Congratulations! You have completed the Slash GraphQL quick-start guide, and you are ready to use the world’s most advanced, hosted GraphQL backend in your applications.
-
-
-
-
 

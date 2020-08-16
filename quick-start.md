@@ -261,7 +261,7 @@ You can try creating an account with your email, or log in with the following us
 
 Once you have logged in, you should see something like:
 
-![](.gitbook/assets/todos.png)
+![](.gitbook/assets/todos%20%281%29.png)
 
 Congratulations! You have completed the Slash GraphQL quick-start guide, and you are ready to use the world’s most advanced, hosted GraphQL backend in your applications.
 

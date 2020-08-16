@@ -9,11 +9,13 @@ _These are draft docs for Slash GraphQL, which is currently in beta_
 
 ## Introduction
 
-Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql)., the world’s most advanced, hosted GraphQL backend. In this quick-start guide, we'll build a small app from the ground up using Slash GraphQL. The techniques you’ll learn in this tutorial are fundamental to make any DApp on [Radix](http://www.radixdlt.com/), and mastering it will give you a better understanding of the Radix distributed ledger.
+Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql), the world’s most advanced, hosted GraphQL backend. By now, you should have created your first deployment, and you're looking for a quick-start guide to test it out. Don't worry, in this document we got you covered.
+
+In this guide, we will create a database for a small app from the ground up using Slash GraphQL. The easy steps you will learn in this tutorial are fundamental to use Slash GraphQL, and mastering it will give you a better understanding of the powerful features available.
 
 ### About our ToDo App
 
-As our example app for this guide, we'll be building a simple _ToDo List_ app that supports adding and completing tasks for multiple users. With the help of this small app, in this article you'll learn to:
+As our example app for this guide, we'll be building a simple _ToDo List_  that supports adding and completing tasks for multiple users. With the help of this small app, in this article, you'll learn to:
 
 * Create a Slash GraphQL schema
 * Apply GraphQL mutations and populate data
@@ -21,8 +23,6 @@ As our example app for this guide, we'll be building a simple _ToDo List_ app th
 * Test the app with a simple React UI
 
 ## The Schema
-
-By now, you should have created your first deployment, and are looking for a schema to test out. Don't worry, we've got you covered.
 
 This example is for ToDo app that can support multiple users. We just have two types: `Tasks` and `Users`.
 

@@ -9,11 +9,11 @@ _These are draft docs for Slash GraphQL, which is currently in beta_
 
 ## Introduction
 
-Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql). In this quick start guide, we'll build a small app from the ground up using Slash GraphQL. The techniques you’ll learn in this tutorial are fundamental to make any DApp on [Radix](http://www.radixdlt.com/), and mastering it will give you a better understanding of the Radix distributed ledger.
+Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql)., the world’s most advanced, hosted GraphQL backend. In this quick-start guide, we'll build a small app from the ground up using Slash GraphQL. The techniques you’ll learn in this tutorial are fundamental to make any DApp on [Radix](http://www.radixdlt.com/), and mastering it will give you a better understanding of the Radix distributed ledger.
 
 ### About our ToDo App
 
-As our example app for this guide, we'll be building a simple ToDo app that supports adding and completing tasks for multiple users. With our small app you'll learn to:
+As our example app for this guide, we'll be building a simple _ToDo List_ app that supports adding and completing tasks for multiple users. With the help of this small app, in this article you'll learn to:
 
 * Create a Slash GraphQL schema
 * Apply GraphQL mutations and populate data
@@ -26,9 +26,9 @@ By now, you should have created your first deployment, and are looking for a sch
 
 This example is for ToDo app that can support multiple users. We just have two types: `Tasks` and `Users`.
 
-The schema itself is pretty simple. It's a standard GraphQL schema, with a few additional directives \(such as `@search`\), which are specific to Slash GraphQL.
+The schema itself is pretty simple: it's a standard GraphQL schema, with a few additional directives \(such as `@search`\), which are specific to Slash GraphQL. 
 
-Here's a schema that works with Slash GraphQL:
+Let's define the Slash GraphQL schema for our app:
 
 ```graphql
 type Task {
@@ -49,13 +49,13 @@ The `Task` type has four fields: `id`, `title`, `completed` and the `user`. The 
 
 The `User` type uses the `username` field as an ID, and we will put the email address into that field.
 
-Let's paste that into the [schema tab](https://slash.dgraph.io/_/schema) of Slash GraphQL and hit **Update Schema**. You now have a fully functional GraphQL API that allows you to create, query and modify records of these two types.
+Let's paste that into the [schema tab](https://slash.dgraph.io/_/schema) of Slash GraphQL and hit **Update Schema**. Now we have a fully functional GraphQL API that allows us to create, query and modify records of these two types.
 
 ![](.gitbook/assets/schema.png)
 
 That's all, there's nothing else to do. It's there, serving GraphQL --- let's go use it.
 
-## GraphQL mutations
+## GraphQL Mutations
 
 If you head over to the [API explorer tab](https://slash.dgraph.io/_/explorer), you should see the **Docs** tab, which tells you the queries and mutations that your new database supports.
 
@@ -113,7 +113,7 @@ Let's also query back the users and their tasks:
 }
 ```
 
-You'll see that Slash figured out that users are unique by their `username`, and so you only see a single record for each user.
+The query results are shown below. If you look carefully, you'll see that Slash figured out that users are unique \(by the `username`\), and it has returned a single record for each user.
 
 ```graphql
 {
@@ -202,7 +202,7 @@ You'll see that Slash figured out that users are unique by their `username`, and
 
 ## Authorization
 
-Now that we have a schema working, let's update that schema to add some authorization. We'll update the schema so that users can only read their own tasks back.
+Now that we have a schema working, let's update the original schema and add some access authorization. We'll update the schema so that users can only read their own tasks back. \(E.g. Frodo won't be able to read Luke's tasks\)
 
 ```graphql
 type Task @auth(
@@ -234,11 +234,11 @@ Slash GraphQL allows you to pass JWT with custom claims as a header, and will ap
 
 In our schema, we specify that one can only query tasks if the tasks's user has a username that matches `$USER`, a field in the JWT token.
 
-The Authorization magic comment specifies the header the JWT comes from, the domain, and the key that's signed it. In this example, the key is tied to our dev Auth0 account.
+The Authorization magic comment specifies the header where the JWT comes from, the domain, and the key that signed it. In this example, the key is tied to our dev Auth0 account.
 
 More information on how this works in [the documentation](https://graphql.dgraph.io/docs/authrorization/).
 
-Let's try querying back the tasks:
+To verify these authorization changes, let's try querying back the tasks:
 
 ```graphql
 {
@@ -248,7 +248,7 @@ Let's try querying back the tasks:
 }
 ```
 
-We should be getting empty results here, since you no longer have access.
+We should be getting an empty result this time, since we no longer have access to the tasks.
 
 ## Testing it out with a simple UI
 

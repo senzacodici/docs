@@ -9,31 +9,22 @@ _These are draft docs for Slash GraphQL, which is currently in beta_
 
 ## Introduction
 
-In this guide, we'll build a small distributed App \(DApp\) from the ground up using the [Java client library](https://github.com/radixdlt/radixdlt-java). The techniques you’ll learn in this tutorial are fundamental to make any DApp on [Radix](http://www.radixdlt.com/), and mastering it will give you a better understanding of the Radix distributed ledger.
-
-The guide is divided into several sections:
-
-* **​**[**Basic Setup**]() will give you a starting point to follow the tutorial.
-* **​**[**Overview**]() will teach you the fundamentals of Radix's architecture.
-* **​**[**Creating an ERC-like Token**]() will show you how to make your first basic DApp.
-* **​**[**Beyond the basics**]() will give you additional examples to acquire a deeper understanding of the Java library.
+Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql). In this quick start guide, we'll build a small app from the ground up using Slash GraphQL. The techniques you’ll learn in this tutorial are fundamental to make any DApp on [Radix](http://www.radixdlt.com/), and mastering it will give you a better understanding of the Radix distributed ledger.
 
 ### About our ToDo App
 
-As our example App for this guide, we'll be building a simple ChatBot that receives and replies messages sent to a specific Radix address. With our small ToDo App you'll learn to:
+As our example app for this guide, we'll be building a simple ToDo app that supports adding and completing tasks for multiple users. With our small app you'll learn to:
 
 * Create a Slash GraphQL schema
 * Apply GraphQL mutations and populate data
 * Add Authorization tokens
-* Test the app from a React UI
-
-## Z
-
-Welcome to [Slash GraphQL](https://dgraph.io/slash-graphql). By now, you should have created your first deployment, and are looking for a schema to test out. Don't worry, we've got you covered.
-
-This example is for ToDo app that can support multiple users. We just have two types: `Tasks` and `Users`.
+* Test the app with a simple React UI
 
 ## The Schema
+
+By now, you should have created your first deployment, and are looking for a schema to test out. Don't worry, we've got you covered.
+
+This example is for ToDo app that can support multiple users. We just have two types: `Tasks` and `Users`.
 
 The schema itself is pretty simple. It's a standard GraphQL schema, with a few additional directives \(such as `@search`\), which are specific to Slash GraphQL.
 
@@ -64,13 +55,13 @@ Let's paste that into the [schema tab](https://slash.dgraph.io/_/schema) of Slas
 
 That's all, there's nothing else to do. It's there, serving GraphQL --- let's go use it.
 
-## GraphQL Mutations
+## GraphQL mutations
 
 If you head over to the [API explorer tab](https://slash.dgraph.io/_/explorer), you should see the **Docs** tab, which tells you the queries and mutations that your new database supports.
 
-Let's go ahead and populate some data into this fresh database.
-
 ![](.gitbook/assets/docexplorer.png)
+
+Let's go ahead and populate some data into this fresh database.
 
 ### Populating the database
 
@@ -259,7 +250,7 @@ Let's try querying back the tasks:
 
 We should be getting empty results here, since you no longer have access.
 
-## Testing it out with a Simple UI
+## Testing it out with a simple UI
 
 We've built a ToDo app with [React](https://reactjs.org/) that you can use to close these ToDos off. Le t's head over to our sample React app, deployed at [https://relaxed-brahmagupta-f8020f.netlify.app/](https://relaxed-brahmagupta-f8020f.netlify.app/).
 

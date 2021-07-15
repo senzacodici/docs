@@ -6,7 +6,7 @@ An essential strength of decentralized networks \(and blockchain technologies\) 
 
 How the majority of nodes regularly reach consensus depends on the technology used by the network, but they all assume that nodes are properly distributed across the world. This means that the stakes or hash power should not be in the hands of a single entity. At least that’s not supposed to be.
 
-In this article, we will analyze what happens when the hash rate \(or stake\) is no longer distributed properly, and one single entity or organization is able to control more than 50% of the network. The effects of a 51% attack \(also known as majority attack\) go beyond a simple double-spend and can destroy the whole network’s value.
+In this article, we will analyze what happens when the hash rate \(or stake\) is no longer distributed properly, and one single entity or organization is able to control more than 50% of the network. The effects of a 51% attack \(also known as "majority attack"\) go beyond a simple double-spend and can destroy the whole network’s value.
 
 ## The 51% attack
 

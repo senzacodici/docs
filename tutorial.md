@@ -164,7 +164,7 @@ inside.
 
 ## Creating the files
 
-This example smart contract project starts out very simple:
+This smart contract project starts out with a simple layout:
 
 ```bash
 .
@@ -408,7 +408,7 @@ mod tests {
 
 ## Breaking it down
 
-Before we continue, let's review some parts of the smart contract source code.
+Before we continue, let's review some parts of the smart contract's source code.
 We'll break down the code in pieces in the next section.
 
 ### Imports and initial code
@@ -420,9 +420,9 @@ use near_sdk::{env, near_bindgen};
 
 At the top of this file you have the standard imports. The packages that follow the `use` 
 statement can be found as dependencies in `Cargo.toml`. All the imports involving 
-serialization are used to bundle our code/storage so that it's ready for the blockchain.
+serialization are used to bundle the code/storage so that it's ready for the blockchain.
 
-> Note: that we're taking `env` from `near-sdk-rs`. This will provide a similar concept to
+> Note: The code takes `env` from `near-sdk-rs`. This will provide a similar concept to
 **context** as seen in other blockchains. (Example: the sender of a transaction,
 tokens sent, logging, etc.)
 
@@ -679,7 +679,7 @@ This example is as bare bones as it gets, but illustrates all the moving parts a
 with writing a smart contract with Rust. Admittedly, it's a poor example when it comes to
 creating anything user-facing.
 
-Now that you're familiar with the build process, a natural next step might be to check out
+Now that you're familiar with the build process, a natural next step is to check out
 `create-near-app`. This project includes another Rust smart contract but has an interface.
 With `create-near-app` many of the steps we performed on the command line are wrapped
 neatly into build scripts.
